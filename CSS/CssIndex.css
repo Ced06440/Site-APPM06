@@ -1,0 +1,36 @@
+.Body {
+    background: #E8D800;
+}
+#Apmm06{
+    margin-top: -100px;
+    margin-left: 100px;
+}
+#titre{
+    margin-top: -110px;
+    margin-left: 600px;
+    
+}
+#liste{
+    margin-top: -50px;
+    margin-left: 300px;
+   font-size: x-large;
+}
+#item{
+    padding: 100px;
+    
+}
+#barre{
+    margin-top: -150px;
+}
+.phrase{
+    margin-top: -50px;
+}
+#card{
+    background-color: #4CC7F2;
+}
+.cardTwo{
+    background-color: #29A7E0;
+}
+footer{
+    background-color: #707070;
+}

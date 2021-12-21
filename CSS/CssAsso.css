@@ -31,7 +31,7 @@ article>img{
     }
 article>img:hover{
     animation-name: example;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 @keyframes example {
     from { filter : blur(4px);}

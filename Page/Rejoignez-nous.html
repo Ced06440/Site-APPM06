@@ -5,25 +5,191 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/CssIndex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Lato&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>APMM06</title>
 </head>
-<body class='Body container-fluid'>
-    <nav>
-        <div class='row'>
-            <img style="width:257px;height:141px" class='logo' src='../Photo/kisspng-logo-blue-wind-wave-sea-level-wave-curve-5a8628d85aa543.6860425015187417203713.png' alt=''>
-                <span id='Apmm06'>APMM06</span>
+<body class='Body container' style=" font-family: 'Lato', sans-serif;">
+
+  <header>
+
+    <nav class="row">
+
+        <div class="text-center">
+            <img id="logo" class="img-fluid" src='../Photo/kisspng-logo-blue-wind-wave-sea-level-wave-curve-5a8628d85aa543.6860425015187417203713.png' alt=''>
             </img>
         </div>
-        <h1 class="row" id="titre">Association Protection de la Mer Méditerranée</h1>
-        <ul class="nav row align-items-center" id="liste">
-            <li class='nav-item col' id="item"><a href="./Index.html">Accueil</a></li>
-            <li class='nav-item col' id="item"><a href="./L'association.html">L'association</a></li>
-            <li class='nav-item col' id="item"><a href="./Action.html">Action</a></li>
-            <li class='nav-item col pe-none' id="item"><a href="./Rejoignez-nous.html">Rejoignez-nous</a></li>
+
+        <h1 class="text-center" id="titre">Association Protection de la Mer Méditerranée</h1>
+
+        <ul class="nav row text-center" id="liste">
+            <li class='nav-item col' id="item"><a class="nav-link " href="./Index.html">Accueil</a></li>
+            <li class='nav-item col' id="item"><a class="nav-link active" href="./L'association.html">L'association</a></li>
+            
         </ul>
+
+        
+            <div id="scrollMenu" class="nav-item dropdown row" style="text-align: center;">
+              <a class="nav-link dropdown-toggle btn" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 33%;">
+                Menu
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #4CC7F2;">
+                <li class='nav-item col-xxl-3' id="item"><a class="nav-link active" href="./Index.html">Accueil</a></li>
+                <li class='nav-item col-xxl-3' id="item"><a class="nav-link active" href="./L'association.html">L'association</a></li>
+              </ul>
+            </div>
+  
     </nav>
 
+  </header>
+
+    <svg class="img-fluid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 1938.094 47">
+        <defs>
+          <filter id="Ligne_2" x="0" y="0" width="1938.094" height="47" filterUnits="userSpaceOnUse">
+            <feOffset dy="3" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feFlood flood-opacity="0.161"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+          </filter>
+        </defs>
+        <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ligne_2)">
+          <line id="Ligne_2-2" data-name="Ligne 2" x2="1920" y2="9" transform="translate(9.05 16)" fill="none" stroke="#4cc7f2" stroke-width="20" stroke-dasharray="8"/>
+        </g>
+      </svg>
+
+      
+      <div class="row">
+              <p id="phrase" class="text-center" style="font-family: 'Corinthia', cursive">
+                <img style="width:30px ; height:50px" src="../Icone/olive-svgrepo-com.svg" alt=""></img>
+                  "“Les bouteilles à la mer ne ramènent pas souvent les réponses.”"
+                <img style="width:30px ; height:50px ; rotate: 1 ;" src="../Icone/olive-svgrepo-com.svg" alt=""></img>
+              </p>
+      </div>
     
+  <main class="row">
+    <div class="col-xxl-4"></div>
+      <form class="col-xxl-4" style="border-radius: 10px ;background-color:#4CC7F2;">
+        <h2 style="text-align: center;">Mes coordonnées</h2>
+
+          <div class="row">
+            <div class="col-xxl-3"></div>
+            <div class="col-xxl-3 form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Monsieur
+              </label>
+            </div>
+            <div class=" col-xxl-3 form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Madame
+              </label>
+            </div>
+            <div class="col-xxl-2"></div>
+          </div>
+
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Nom">
+              <label for="floatingInput">Nom</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Prénom">
+              <label for="floatinginput">Prénom</label>
+            </div>
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInput" placeholder="nom@exemple.fr">
+              <label for="floatingInput">Adresse E-mail</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Adresse">
+              <label for="floatingInput">Adresse</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Complément d'adresse">
+              <label for="floatingInput">Complément d'adresse</label>
+            </div>
+            <div class="form-floating">
+              <input type="number" class="form-control" id="floatingInput" placeholder="Code postale">
+              <label for="floatingInput">Code postale</label>
+            </div>
+          
+            <div class="form-floating mb-2">
+              <input type="number" class="form-control" id="floatingInput" placeholder="Numéros de téléphone">
+              <label for="floatingInput">Numeros de téléphone</label>
+            </div>
+
+            <div class="mt-3">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                10€
+              </label>  
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                20€
+              </label>   
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                50€
+              </label>
+            <div class="mt-3">
+              <input type="number" class="form-control" id="floatingInput" placeholder="Montant libre">
+              <label for="floatingInput"></label>
+            </div>
+            
+            </div>
+
+           
+
+            <div style="text-align: center;" class="mb-3">
+              <button type="submit" class="btn btn-danger">Valider</button>
+            </div>          
+      </form>
+      <div class="col-xxl-3"></div>     
+  </main>
+
+      <svg class="mt-3 img-fluid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1938.094 47">
+        <defs>
+          <filter id="Ligne_3" x="0" y="0" width="1938.094" height="47" filterUnits="userSpaceOnUse">
+            <feOffset dy="3" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feFlood flood-opacity="0.161"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+          </filter>
+        </defs>
+        <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ligne_3)">
+          <line id="Ligne_3-2" data-name="Ligne 3" x2="1920" y2="9" transform="translate(9.05 16)" fill="none" stroke="#29a7e0" stroke-width="20"/>
+        </g>
+      </svg>
+
+
+    <footer class="container">
+      <div class="row">
+
+          <div id="reseau" class="col-xxl-4 align-self-center">
+            <a href="#" alt="" ><img id="logoReseau" style="width: 7%;" src="../Icone/facebook.svg" alt=""></a>
+            <a href="#" alt="" ><img id="logoReseau" style="width: 7%;" src="../Icone/skype.svg" alt=""></a>
+            <a href="#" alt="" ><img id="logoReseau" style="width: 7%;" src="../Icone/twitter.svg" alt=""></a>
+          </div>
+
+          <div class="col-xxl-4"></div>
+
+          <div id="contact" class="col-xxl-4">
+            <div  class="row">
+              <div style="text-align: center; font-weight: bold;">Contactez-nous</div>
+              <div class="col" style="text-align: center;"><img src="../Icone/geo-alt.svg" alt=""></img>Quai Rauba capeu<br><div>06300 Nice</div></div>
+              <div class="col" style="text-align: center;"><img src="../Icone/phone.svg" alt=""></img>04.93.00.00.00</div>
+            </div>
+          </div>
+      
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>     
 </html>
